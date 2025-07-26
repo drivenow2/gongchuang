@@ -1,0 +1,45 @@
+# .gitignore
+
+# 敏感配置文件
+# 忽略数据库配置文件，防止敏感凭据泄露
+configs/database_config.json
+
+# Python 缓存文件
+# 忽略 Python 编译和缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 日志文件
+# 忽略所有日志文件
+*.log
+
+# 开发环境配置
+# 忽略 IDE 和编辑器相关的配置文件
+.idea/
+.vscode/
+*.swp
+
+
+
+# 虚拟环境
+# 忽略 Python 虚拟环境目录
+venv/
+env/
+.venv/
+
+# 依赖管理
+# 如果有其他依赖文件需要忽略，可以在此添加
+
+# 临时文件和备份文件
+# 忽略常见的临时文件和备份文件
+*~
+*.tmp
+*.bak
+
+# 压缩文件
+# 忽略打包和压缩文件
+*.tar
+*.gz
+*.zip
+*.rar

@@ -1,0 +1,134 @@
+{
+  "table_config": {
+    "table_name": "xhs_blogger_data",
+    "engine": "InnoDB",
+    "charset": "utf8mb4",
+    "collate": "utf8mb4_unicode_ci",
+    "auto_increment_start": 1,
+    "comment": "自动生成的表结构"
+  },
+  "fields": {
+    "id": {
+      "mysql_type": "BIGINT",
+      "nullable": false,
+      "auto_increment": true,
+      "default": null,
+      "comment": "自增主键",
+      "special_type": "primary_key"
+    },
+    "博主名称": {
+      "mysql_type": "VARCHAR(50)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "博主名称"
+    },
+    "博主头像地址": {
+      "mysql_type": "TEXT",
+      "nullable": false,
+      "default": null,
+      "special_type": "url",
+      "comment": "博主头像地址"
+    },
+    "博主主页地址": {
+      "mysql_type": "TEXT",
+      "nullable": false,
+      "default": null,
+      "special_type": "url",
+      "comment": "博主主页地址"
+    },
+    "简介": {
+      "mysql_type": "VARCHAR(150)",
+      "nullable": true,
+      "default": null,
+      "special_type": "normal",
+      "comment": "简介"
+    },
+    "粉丝数": {
+      "mysql_type": "DOUBLE",
+      "nullable": true,
+      "default": null,
+      "special_type": "normal",
+      "comment": "粉丝数"
+    },
+    "赞藏数": {
+      "mysql_type": "DOUBLE",
+      "nullable": true,
+      "default": null,
+      "special_type": "normal",
+      "comment": "赞藏数"
+    },
+    "赞粉比": {
+      "mysql_type": "DOUBLE",
+      "nullable": true,
+      "default": null,
+      "special_type": "normal",
+      "comment": "赞粉比"
+    },
+    "地址": {
+      "mysql_type": "VARCHAR(50)",
+      "nullable": true,
+      "default": null,
+      "special_type": "normal",
+      "comment": "地址"
+    },
+    "性别": {
+      "mysql_type": "VARCHAR(50)",
+      "nullable": true,
+      "default": null,
+      "special_type": "normal",
+      "comment": "性别"
+    },
+    "采集时间": {
+      "mysql_type": "DATETIME",
+      "nullable": true,
+      "default": null,
+      "special_type": "datetime",
+      "comment": "采集时间"
+    },
+    "created_at": {
+      "mysql_type": "TIMESTAMP",
+      "nullable": false,
+      "default": "CURRENT_TIMESTAMP",
+      "comment": "创建时间",
+      "special_type": "timestamp"
+    },
+    "updated_at": {
+      "mysql_type": "TIMESTAMP",
+      "nullable": false,
+      "default": "CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP",
+      "comment": "更新时间",
+      "special_type": "timestamp"
+    }
+  },
+  "indexes": {
+    "primary_key": [
+      "id"
+    ],
+    "unique_keys": [
+      [
+        "博主名称"
+      ],
+      [
+        "博主头像地址"
+      ],
+      [
+        "博主主页地址"
+      ]
+    ],
+    "normal_indexes": [
+      "created_at",
+      "updated_at",
+      "简介",
+      "粉丝数",
+      "赞藏数",
+      "赞粉比",
+      "地址",
+      "采集时间"
+    ],
+    "fulltext_indexes": [
+      "博主头像地址",
+      "博主主页地址"
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "table_config": {
+    "table_name": "xhsrpatest",
+    "engine": "InnoDB",
+    "charset": "utf8mb4",
+    "collate": "utf8mb4_unicode_ci",
+    "auto_increment_start": 1,
+    "comment": "自动生成的表结构"
+  },
+  "fields": {
+    "id": {
+      "mysql_type": "BIGINT",
+      "nullable": false,
+      "auto_increment": true,
+      "default": null,
+      "comment": "自增主键",
+      "special_type": "primary_key"
+    },
+    "花花的小世界": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "HR大师姐蓉儿": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "职场干货贩卖机": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "我在洛斐不加班": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "石大也": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "BettySays": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "能力者的职场清醒笔记": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": false,
+      "is_index_candidate": true
+    },
+    "明仔和二毛子": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "真真职场变强记": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "爱画画的周小白": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "张秋之": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "小溪学姐的锦囊": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "职场答疑解惑-潘老师": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "Hailey罗职场进化论": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "半半仙的橘宝": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": false,
+      "is_index_candidate": true
+    },
+    "职场打工人ESP": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "职场冲冲冲": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "BettySays.1": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "能力者的职场清醒笔记.1": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "明仔和二毛子.1": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": false,
+      "is_index_candidate": true
+    },
+    "真真职场变强记.1": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": false,
+      "default": "",
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": true,
+      "is_index_candidate": false
+    },
+    "爱画画的周小白.1": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": true,
+      "default": null,
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": false,
+      "is_index_candidate": true
+    },
+    "张秋之.1": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": true,
+      "default": null,
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": false,
+      "is_index_candidate": true
+    },
+    "小溪学姐的锦囊.1": {
+      "mysql_type": "VARCHAR(275)",
+      "nullable": true,
+      "default": null,
+      "special_type": "normal",
+      "comment": "从 object 推断而来",
+      "is_unique_candidate": false,
+      "is_index_candidate": true
+    },
+    "created_at": {
+      "mysql_type": "TIMESTAMP",
+      "nullable": false,
+      "default": "CURRENT_TIMESTAMP",
+      "comment": "创建时间",
+      "special_type": "timestamp"
+    },
+    "updated_at": {
+      "mysql_type": "TIMESTAMP",
+      "nullable": false,
+      "default": "CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP",
+      "comment": "更新时间",
+      "special_type": "timestamp"
+    }
+  },
+  "indexes": {
+    "primary_key": [
+      "id"
+    ],
+    "unique_keys": [
+      [
+        "花花的小世界"
+      ],
+      [
+        "HR大师姐蓉儿"
+      ],
+      [
+        "职场干货贩卖机"
+      ],
+      [
+        "我在洛斐不加班"
+      ],
+      [
+        "石大也"
+      ],
+      [
+        "BettySays"
+      ],
+      [
+        "明仔和二毛子"
+      ],
+      [
+        "真真职场变强记"
+      ],
+      [
+        "爱画画的周小白"
+      ],
+      [
+        "张秋之"
+      ],
+      [
+        "小溪学姐的锦囊"
+      ],
+      [
+        "职场答疑解惑-潘老师"
+      ],
+      [
+        "Hailey罗职场进化论"
+      ],
+      [
+        "职场打工人ESP"
+      ],
+      [
+        "职场冲冲冲"
+      ],
+      [
+        "BettySays.1"
+      ],
+      [
+        "能力者的职场清醒笔记.1"
+      ],
+      [
+        "真真职场变强记.1"
+      ]
+    ],
+    "normal_indexes": [
+      "created_at",
+      "updated_at",
+      "能力者的职场清醒笔记",
+      "半半仙的橘宝",
+      "明仔和二毛子.1",
+      "爱画画的周小白.1",
+      "张秋之.1",
+      "小溪学姐的锦囊.1"
+    ],
+    "fulltext_indexes": []
+  },
+  "constraints": {
+    "foreign_keys": [],
+    "check_constraints": []
+  },
+  "metadata": {
+    "generated_at": "2025-07-26T19:44:59.645411",
+    "source_info": {
+      "row_count": 59,
+      "column_count": 24,
+      "memory_usage_mb": 0.24207592010498047,
+      "columns": [
+        "花花的小世界",
+        "HR大师姐蓉儿",
+        "职场干货贩卖机",
+        "我在洛斐不加班",
+        "石大也",
+        "BettySays",
+        "能力者的职场清醒笔记",
+        "明仔和二毛子",
+        "真真职场变强记",
+        "爱画画的周小白",
+        "张秋之",
+        "小溪学姐的锦囊",
+        "职场答疑解惑-潘老师",
+        "Hailey罗职场进化论",
+        "半半仙的橘宝",
+        "职场打工人ESP",
+        "职场冲冲冲",
+        "BettySays.1",
+        "能力者的职场清醒笔记.1",
+        "明仔和二毛子.1",
+        "真真职场变强记.1",
+        "爱画画的周小白.1",
+        "张秋之.1",
+        "小溪学姐的锦囊.1"
+      ]
+    },
+    "data_quality": {
+      "total_null_count": 69,
+      "duplicate_rows": 0,
+      "columns_with_nulls": [
+        "爱画画的周小白.1",
+        "张秋之.1",
+        "小溪学姐的锦囊.1"
+      ],
+      "completely_null_columns": []
+    }
+  }
+}
